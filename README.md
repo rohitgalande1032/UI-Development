@@ -13,6 +13,9 @@
 
 > **Link**: [See Live](https://ui-development-cynlr.netlify.app/)
 
+> ## 📸 Video - 
+> **Link**: [See Video Preview](https://www.loom.com/embed/11782127d63549d0b6ef11278727baaa)
+> 
 ## 🧠 Overview
 
 **Responsive UI Design** is a full-featured application that enables users to:
