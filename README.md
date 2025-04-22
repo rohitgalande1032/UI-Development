@@ -11,7 +11,7 @@
 
 ## 📸 Live Preview
 
-> **Link**: [Your live deployed site here](https://your-deployment-link.com)
+> **Link**: [See Live](https://ui-development-cynlr.netlify.app/)
 
 ## 🧠 Overview
 
