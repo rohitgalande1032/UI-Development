@@ -96,8 +96,8 @@
 ## 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/drone-dashboard.git](https://github.com/rohitgalande1032/UI-Development.git)
-cd drone-dashboard
+git clone [https://github.com/your-username/ui-development.git](https://github.com/rohitgalande1032/UI-Development.git)
+cd ui-development
 ```
 
 ## 3. Start the Frontend Client
