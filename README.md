@@ -79,7 +79,7 @@
 │   ├── assets/              # Images, 4K video, sample PDF
 │   ├── App.js               # Main router
 │   └── index.js             # Entry point
-
+```
 
 ## ✅ Impact
 
