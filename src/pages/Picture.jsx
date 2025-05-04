@@ -18,18 +18,18 @@ const Picture = () => {
 
 const styles = {
   container: {
-    height: '100vh',
-    background: 'linear-gradient(135deg, #e0f7fa, #f1f8e9)',
+    height: '80vh',
+    background: '#ffffff',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    padding: '2rem',
+    padding: '1rem',
   },
   card: {
     backgroundColor: '#ffffff',
     boxShadow: '0 12px 30px rgba(0, 0, 0, 0.1)',
     borderRadius: '16px',
-    padding: '2rem',
+    padding: '1rem',
     maxWidth: '500px',
     textAlign: 'center',
     transition: 'transform 0.3s ease',

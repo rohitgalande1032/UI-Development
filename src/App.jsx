@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Scene from "./components/3dCarCustomiser/Scene";
-import ColorPicker from "./components/3dCarCustomiser/ColorPicker";
-import GlassColorPicker from "./components/3dCarCustomiser/GlassColorPicker";
-import WheelColorPicker from "./components/3dCarCustomiser/WheelColorPicker";
+import Scene from "./components/CarCustomiser/Scene";
+import ColorPicker from "./components/CarCustomiser/ColorPicker";
+import GlassColorPicker from "./components/CarCustomiser/GlassColorPicker";
+import WheelColorPicker from "./components/CarCustomiser/WheelColorPicker";
 import "./App.css";
 import RadialButton from "./components/button/RadialButton";
 import RadialButton1 from "./components/button/RadialButton1";
@@ -44,13 +44,19 @@ export default function App() {
         </div>
       </div>
 
+      <div>
+      <h2 style={{color:"white", borderBottom:"2px solid #986deb", width:"fit-content", margin:"10px auto"}}>Customizable Buttons</h2>
       <div id="buttons">
         <RadialButton2 />
         <RadialButton1 />
         <RadialButton />
       </div>
+      </div>
 
+      <div>
       <AppRoutes />
+      </div>
+      
       <OptimizedVideo />
       <PictureGallery />
       <Footer />

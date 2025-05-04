@@ -20,8 +20,8 @@ const PDF = () => {
 
 const styles = {
   container: {
-    height: '100vh',
-    background: 'linear-gradient(135deg, #e3f2fd, #fce4ec)',
+    height: '80vh',
+    background: '#ffffff',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',

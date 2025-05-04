@@ -18,8 +18,8 @@ const GIF = () => {
 
 const styles = {
   container: {
-    height: '100vh',
-    background: 'linear-gradient(135deg, #f0f4ff, #e6ecff)',
+    height: '80vh',
+    background: '#ffffff',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',

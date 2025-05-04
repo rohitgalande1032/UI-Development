@@ -1,70 +1,45 @@
 import React from 'react';
 
+const VIDEO_SRC = "/video.mp4"; 
+
 const OptimizedVideo = () => {
   return (
-    <div style={styles.container} id='video'>
-      <div style={styles.card}>
-        <h2 style={styles.title}>Explore with 4K Video 🎥</h2>
-        <p style={styles.text}>
-          Enjoy this ultra-high-definition video experience. The video starts playing automatically when you land here.
-        </p>
-
-        <div style={styles.iframeWrapper}>
-          <iframe
-            style={styles.iframe}
-            src="https://www.youtube.com/embed/PKZ_iNw_aFw?autoplay=1&mute=1&loop=1&playlist=PKZ_iNw_aFw"
-            title="YouTube 4K Video"
-            allow="autoplay; encrypted-media"
-            allowFullScreen
-          ></iframe>
-        </div>
-      </div>
+    <>
+    <h1 style={{color:"white", borderBottom:"2px solid #986deb", width:"fit-content", margin:"10px auto"}} id="gallery">Video</h1>
+    <div className="container" style={styles.container}>
+      <video
+        style={styles.video}
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="none"
+      >
+        <source
+          src={VIDEO_SRC}
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
     </div>
+    </>
   );
 };
 
 const styles = {
   container: {
-    height: '100vh',
-    background: 'linear-gradient(135deg, #fce4ec, #e1f5fe)',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: '2rem',
-  },
-  card: {
-    backgroundColor: '#fff',
-    borderRadius: '16px',
-    boxShadow: '0 12px 30px rgba(0, 0, 0, 0.1)',
-    padding: '2rem',
-    maxWidth: '800px',
     width: '100%',
-    textAlign: 'center',
-  },
-  title: {
-    fontSize: '2rem',
-    marginBottom: '1rem',
-    color: '#c62828',
-  },
-  text: {
-    fontSize: '1rem',
-    marginBottom: '1.5rem',
-    color: '#444',
-  },
-  iframeWrapper: {
-    position: 'relative',
-    paddingBottom: '56.25%',
-    height: 0,
+    height: '80vh',
     overflow: 'hidden',
-    borderRadius: '12px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#000',
   },
-  iframe: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
+  video: {
     width: '100%',
     height: '100%',
-    border: 0,
+    objectFit: 'cover',
   },
 };
 

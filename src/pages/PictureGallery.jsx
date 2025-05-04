@@ -2,16 +2,15 @@ import React, { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 
 const images = [
-  'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80',
-  'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80',
-  'https://images.unsplash.com/photo-1516116216624-53e697fedbea?auto=format&fit=crop&w=800&q=80',
-  'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=80',
-  'https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=800&q=80',
-  'https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?auto=format&fit=crop&w=800&q=80',
-  'https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=800&q=80',
-  'https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?auto=format&fit=crop&w=800&q=80',
-  'https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=800&q=80',
-  'https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=800&q=80',
+  '/robot-1.png',
+  '/robot-2.jpg',
+  '/robot-3.jpg',
+  '/robot-4.jpg',
+  '/robot-5.jpg',
+  '/robot-6.jpg',
+  '/robot-7.jpg',
+  '/robot-8.jpg',
+  '/robot-9.jpg',
 ];
 
 const PictureGallery = () => {
@@ -25,7 +24,7 @@ const PictureGallery = () => {
 
   return (
     <>
-      <h1 style={{ textAlign: 'center', marginTop: '1rem', color: '#fff' }} id="gallery">Gallery</h1>
+      <h1 style={{color:"white", borderBottom:"2px solid #986deb", width:"fit-content", margin:"10px auto"}} id="gallery">Gallery</h1>
       <div style={styles.wrapper} >
         <div style={styles.container}>
           {/* Preview Column */}
@@ -78,7 +77,6 @@ const styles = {
     width: '100vw',
     height: '100vh',
     overflow: 'hidden',
-    backgroundColor: '#0e0e0e',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',

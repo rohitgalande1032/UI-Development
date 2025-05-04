@@ -17,7 +17,6 @@ const styles = {
   footer: {
     width: '100%',
     padding: '1.5rem 0',
-    background: 'linear-gradient(to right, #1c1c1c, #2e2e2e)',
     textAlign: 'center',
     position: 'relative',
     bottom: 0,
@@ -36,7 +35,7 @@ const styles = {
     display: 'inline-block',
   },
   link: {
-    color: '#00bcd4',
+    color: '#986deb',
     fontWeight: 'bold',
     textDecoration: 'none',
     transition: 'color 0.3s ease',

@@ -4,13 +4,13 @@ const Video = () => {
       return (
         <div style={styles.container}>
           <div style={styles.card}>
-            <h2 style={styles.title}>Inspiring Video 🎥</h2>
-            <p style={styles.text}>Watch this short inspirational clip and get motivated!</p>
+            <h2 style={styles.title}>3-axis Robotics Arm 🎥</h2>
+            <p style={styles.text}>Watch this short video clip and get information about 3-axis Robotic Arm!</p>
             <div style={styles.videoWrapper}>
               <iframe
                 width="100%"
                 height="315"
-                src="https://www.youtube.com/embed/2Xc9gXyf2G4"
+                src="https://www.youtube.com/embed/yhdL4jz74WM"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -25,8 +25,8 @@ const Video = () => {
 
 const styles = {
   container: {
-    height: '100vh',
-    background: 'linear-gradient(135deg, #f3e5f5, #e8f5e9)',
+    height: '80vh',
+    background: '#ffffff',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',

@@ -5,7 +5,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="navbar-logo">🚗 3DCustomizer</div>
+      <div className="navbar-logo">CY:NLR</div>
       
       <div className={`nav-links ${isOpen ? 'open' : ''}`}>
         <a href="#home">Home</a>
