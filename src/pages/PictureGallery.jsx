@@ -24,8 +24,8 @@ const PictureGallery = () => {
 
   return (
     <>
-      <h1 style={{color:"white", borderBottom:"2px solid #986deb", width:"fit-content", margin:"10px auto"}} id="gallery">Gallery</h1>
-      <div style={styles.wrapper} >
+      <h1 style={{color:"white", borderBottom:"2px solid #986deb", width:"fit-content", margin:"10px auto"}} >Gallery</h1>
+      <div style={styles.wrapper} id='gallery'>
         <div style={styles.container}>
           {/* Preview Column */}
           <div style={styles.previewColumn}>

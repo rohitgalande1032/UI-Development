@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  margin: 10px 40px ;
+  margin: 50px ;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
@@ -29,14 +29,13 @@
 /* Right side: Sidebar */
 .sidebar {
   flex: 1;
- 
   color: white;
   padding: 30px 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   justify-content: flex-start;
-  margin: 10px 40px ;
+
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   border-radius: 20px;
 }
@@ -47,7 +46,6 @@
 }
 
 .sidebar h2 {
-  margin-top: 10;
   color: white;
   font-size: 1.5rem;
   border-bottom: 2px solid #986deb;

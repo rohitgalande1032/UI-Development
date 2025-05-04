@@ -6,7 +6,7 @@ const OptimizedVideo = () => {
   return (
     <>
     <h1 style={{color:"white", borderBottom:"2px solid #986deb", width:"fit-content", margin:"10px auto"}} id="gallery">Video</h1>
-    <div className="container" style={styles.container}>
+    <div className="container" style={styles.container} id='video'>
       <video
         style={styles.video}
         autoPlay

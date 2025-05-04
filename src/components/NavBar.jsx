@@ -9,7 +9,7 @@ const Navbar = () => {
       
       <div className={`nav-links ${isOpen ? 'open' : ''}`}>
         <a href="#home">Home</a>
-        <a href="#buttons">Customized Buttons</a>
+        <a href="#button">Customized Buttons</a>
         <a href="#video">Video</a>
         <a href="#gallery">Gallery</a>
         <a href="#footer">Contact</a>

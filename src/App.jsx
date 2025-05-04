@@ -45,7 +45,7 @@ export default function App() {
       </div>
 
       <div>
-      <h2 style={{color:"white", borderBottom:"2px solid #986deb", width:"fit-content", margin:"10px auto"}}>Customizable Buttons</h2>
+      <h2 id="button" style={{color:"white", borderBottom:"2px solid #986deb", width:"fit-content", margin:"10px auto"}}>Customizable Buttons</h2>
       <div id="buttons">
         <RadialButton2 />
         <RadialButton1 />
