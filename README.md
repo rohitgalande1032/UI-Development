@@ -11,8 +11,11 @@
 
 ## 📸 Live Preview
 
-> **Link**: [Your live deployed site here](https://your-deployment-link.com)
+> **Link**: [See Live](https://ui-development-cynlr.netlify.app/)
 
+> ## 📸 Video - 
+> **Link**: [See Video Preview](https://www.loom.com/embed/11782127d63549d0b6ef11278727baaa)
+> 
 ## 🧠 Overview
 
 **Responsive UI Design** is a full-featured application that enables users to:
@@ -79,7 +82,7 @@
 │   ├── assets/              # Images, 4K video, sample PDF
 │   ├── App.js               # Main router
 │   └── index.js             # Entry point
-
+```
 
 ## ✅ Impact
 
@@ -96,8 +99,8 @@
 ## 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/drone-dashboard.git](https://github.com/rohitgalande1032/UI-Development.git)
-cd drone-dashboard
+git clone [https://github.com/your-username/ui-development.git](https://github.com/rohitgalande1032/UI-Development.git)
+cd ui-development
 ```
 
 ## 3. Start the Frontend Client
